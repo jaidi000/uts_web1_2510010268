@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Kontak &amp; Layanan | CV Handayani Jaya Sejahtera - Muhammad Jaidi
+      &ndash; 2510010268 &ndash; TI Non Reg BJB 3B
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header dan Navbar -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">HJS<span>Supplies</span></a>
+
+        <!-- Hamburger menu untuk mobile -->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Buka menu navigasi"
+        />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="main-nav" aria-label="Navigasi Utama">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="index.html#produk">Produk</a></li>
+            <li><a href="kontak.html" class="active">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="sticky-subheader">
+        <div class="container">
+          <h2>Hubungi Kami &amp; Daftar Tarif Layanan</h2>
+        </div>
+      </div>
+
+      <div class="container contact-layout">
+        <!-- Form Kontak -->
+        <section class="section-form">
+          <form action="#" method="post" class="contact-form">
+            <fieldset>
+              <legend>Formulir Permintaan Penawaran &amp; Konsultasi</legend>
+
+              <div class="form-group">
+                <label for="nama"
+                  >Nama Lengkap / Perusahaan <span class="req">*</span></label
+                >
+                <input
+                  type="text"
+                  id="nama"
+                  name="nama"
+                  placeholder="Contoh: Budi Santoso / PT Maju Bersama"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email"
+                  >Alamat Email <span class="req">*</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="nama@perusahaan.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subjek">Subjek Kebutuhan</label>
+                <select id="subjek" name="subjek">
+                  <option value="hose">Perakitan Hydraulic Hose</option>
+                  <option value="sparepart">
+                    Pemesanan Suku Cadang Alat Berat
+                  </option>
+                  <option value="kontrak">Kontrak Pengadaan Rutin</option>
+                  <option value="lainnya">Konsultasi Teknis Lainnya</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="pesan"
+                  >Detail Pesan / Spesifikasi Part
+                  <span class="req">*</span></label
+                >
+                <textarea
+                  id="pesan"
+                  name="pesan"
+                  rows="5"
+                  placeholder="Tuliskan ukuran hose, jenis fitting, atau part number yang dibutuhkan..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">
+                  Kirim Pesan
+                </button>
+                <button type="reset" class="btn btn-outline">Reset</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+
+        <!-- Tabel Daftar Layanan -->
+        <section class="section-table">
+          <div class="table-wrapper">
+            <table class="service-table">
+              <caption>
+                Daftar Estimasi Layanan Perakitan &amp; Teknis CV Handayani Jaya
+                Sejahtera
+              </caption>
+              <thead>
+                <tr>
+                  <th>Jenis Layanan</th>
+                  <th>Estimasi Harga</th>
+                  <th>Durasi Pengerjaan</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Crimping Hydraulic Hose (1SN / 2SN)</td>
+                  <td>Rp 250.000 &ndash; Rp 650.000</td>
+                  <td>30 Menit / unit</td>
+                </tr>
+                <tr>
+                  <td>Crimping Heavy Duty Hose (4SP / 4SH)</td>
+                  <td>Rp 750.000 &ndash; Rp 1.850.000</td>
+                  <td>45 Menit / unit</td>
+                </tr>
+                <tr>
+                  <td>Flushing &amp; Pressure Test Hose</td>
+                  <td>Rp 150.000 / unit</td>
+                  <td>1 Jam</td>
+                </tr>
+                <tr>
+                  <td>Inspeksi &amp; Pemasangan On-Site</td>
+                  <td>Rp 500.000 / kunjungan</td>
+                  <td>1 Hari Kerja</td>
+                </tr>
+                <tr class="table-highlight">
+                  <td colspan="2">
+                    <strong
+                      >Paket Kontrak Maintenance Bulanan (Prioritas
+                      24/7)</strong
+                    >
+                  </td>
+                  <td>Sesuai Kesepakatan</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Peta Lokasi -->
+        <section class="section-map">
+          <h3>Lokasi Workshop &amp; Gudang</h3>
+          <p class="map-desc">
+            Jl. A. Yani Km. 35, Banjarbaru &ndash; Banjarmasin, Kalimantan
+            Selatan.
+          </p>
+          <div class="map-frame">
+            <iframe
+              src="https://www.openstreetmap.org/export/embed.html?bbox=114.7800%2C-3.4600%2C114.8600%2C-3.4100&amp;layer=mapnik"
+              title="Peta Lokasi Workshop CV Handayani Jaya Sejahtera"
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Muhammad Jaidi &ndash; 2510010268 &ndash; TI Non Reg BJB
+          3B
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
